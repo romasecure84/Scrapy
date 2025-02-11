@@ -1,7 +1,7 @@
 import scrapy
 from ..items import BookItem
 
-number_dict = {'One': '1', 'Two': '2', 'Three': '3', 'Four': '4', 'Five': '5'}
+number_dict= {'One': '1', 'Two': '2', 'Three': '3', 'Four': '4', 'Five': '5'}
 
 
 class BookSpider(scrapy.Spider):
